@@ -11,7 +11,3 @@ Over the course of his career, Len has led mobile initiatives for companies like
 Len is also a founding member of [PHLDesign Co](http://phldesign.co), the region’s premier online community for designers, and [Roar Lions Roar](http://roarlionsroar.com), the best independent Penn State sports blog out there.
 
 Len lives just outside of Wilmington, Delaware, with his wife and two&nbsp;sons.
-
-## about this site
-
-This site is built with [Jekyll](https://jekyllrb.com), a static site generator. It uses a gently customized version of the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, created by [Michael Rose](https://mademistakes.com/), and is hosted on [Github Pages](https://pages.github.com/). The typeface in use is [Inter UI](https://rsms.me/inter/), by [Rasmus Andersson](https://twitter.com/rsms).
