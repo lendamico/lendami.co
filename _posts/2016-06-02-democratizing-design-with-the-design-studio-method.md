@@ -1,8 +1,12 @@
 ---
+category: journal
 date: 2016-06-02
 excerpt: It takes a village to make a great digital product. Here's how we do it at [Arcweb Technologies](http://arcweb.co).
 medium: https://medium.com/@lendamico/democratizing-design-with-the-design-studio-method-c6170193a0f3
 tags:
+  - design
+  - design studio
+  - participatory design
 title: Democratizing Design with the Design Studio Method
 toc: true
 ---

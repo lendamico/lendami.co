@@ -1,8 +1,9 @@
 ---
+category: journal
 date: 2017-05-18
 excerpt: Soundgarden was always on the periphery, always high quality, but never The Band That Could Be Your Life.
 medium: https://medium.com/@lendamico/the-seasons-roll-on-by-9a90b6515dff
-tags: mixtape
+tags: music
 title: The seasons roll on by
 ---
 
