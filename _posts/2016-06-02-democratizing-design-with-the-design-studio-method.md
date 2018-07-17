@@ -7,7 +7,7 @@ tags:
   - design
   - design studio
   - participatory design
-title: Democratizing Design with the Design Studio Method
+title: Democratizing design with the Design Studio method
 toc: true
 ---
 
