@@ -1,0 +1,17 @@
+---
+layout: single
+author_profile: true
+title: about Len Damico
+---
+
+Len Damico is the Head of Design at [Arcweb Technologies](http://arcweb.co), a digital product design consultancy located in Old City, Philadelphia. At Arcweb, Len leads a team of designers who make software that is easy to use, aligned with business goals, and as delightful as it can&nbsp;be.
+
+Over the course of his career, Len has led mobile initiatives for companies like Children's Hospital of Philadelphia, Chase, DirecTV, New York Life and The Company Corporation, as well as helping companies like Capital One and Zonoff make better software for their internal users. Prior to joining Arcweb, Len spent over a dozen years in advertising, leading multichannel marketing efforts for Barclaycard US, the Delaware Lottery and Sallie Mae and winning several regional Ad Club and Addy awards.
+
+Len is also a founding member of [PHLDesign Co](http://phldesign.co), the region’s premier online community for designers, and [Roar Lions Roar](http://roarlionsroar.com), the best independent Penn State sports blog out there.
+
+Len lives just outside of Wilmington, Delaware, with his wife and two&nbsp;sons.
+
+## about this site
+
+This site is built with [Jekyll](https://jekyllrb.com), a static site generator. It uses a gently customized version of the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, created by [Michael Rose](https://mademistakes.com/), and is hosted on [Github Pages](https://pages.github.com/). The typeface in use is [Inter UI](https://rsms.me/inter/), by [Rasmus Andersson](https://twitter.com/rsms).

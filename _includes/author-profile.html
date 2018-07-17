@@ -169,6 +169,14 @@
         </li>
       {% endif %}
 
+      {% if author.spotify %}
+        <li>
+          <a href="https://open.spotify.com/user/{{ author.spotify }}" itemprop="sameAs">
+            <i class="fab fa-fw fa-spotify" aria-hidden="true"></i> Spotify
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.dribbble %}
         <li>
           <a href="https://dribbble.com/{{ author.dribbble }}" itemprop="sameAs">
