@@ -1,10 +1,13 @@
 ---
-category:
-
+category: articles
+date: 2015-03-09
+excerpt: Prototyping helps us build customer value from the day we begin a project.
+link: https://arcweb.co/why-we-prototype/
+medium:
+source: arcweb.co
+tags:
+  - prototyping
 title: Why We Prototype
-original-link: https://arcweb.co/why-we-prototype/
-original-link-label: arcweb.co
-excerpt: Prototyping helps us build customer value from the day we begin Discovery process on a project.
 ---
 
 Here at Arcweb, we’ve been spending more time using [analog methods of exploring and communicating our ideas](http://arcweb.com/why-we-sketch/) and [we’ve augmented our UI design process with Sketch.app](http://arcweb.com/why-were-complementing-photoshop-with-sketch/). The next piece of the Arcweb design process that we’ll explore is prototyping.

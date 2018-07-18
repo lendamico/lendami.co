@@ -1,5 +1,5 @@
 ---
-category: journal
+category: articles
 date: 2015-04-15
 excerpt: When you're Jony Ive, what's two millimeters, in the grand scheme of things?
 medium: https://medium.com/@lendamico/the-purely-aesthetic-form-ad21224d08a4
