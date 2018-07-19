@@ -2,6 +2,10 @@
 category: articles
 date: 2015-04-15
 excerpt: When you're Jony Ive, what's two millimeters, in the grand scheme of things?
+header:
+  overlay_image: /assets/img/posts/2015-04-15-the-purely-aesthetic-form.jpg
+  overlay_filter: 0.8
+  # overlay_color: "#333"
 medium: https://medium.com/@lendamico/the-purely-aesthetic-form-ad21224d08a4
 tags:
   - design

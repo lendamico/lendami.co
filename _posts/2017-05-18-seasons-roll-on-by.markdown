@@ -2,6 +2,10 @@
 category: articles
 date: 2017-05-18
 excerpt: Soundgarden was always on the periphery, always high quality, but never The Band That Could Be Your Life.
+header:
+  overlay_image: http://www.guerrillacandy.com/wp-content/uploads/2013/01/corneltim.jpg
+  overlay_filter: 0.5
+  # overlay_color: "#333"
 medium: https://medium.com/@lendamico/the-seasons-roll-on-by-9a90b6515dff
 tags:
   - music
