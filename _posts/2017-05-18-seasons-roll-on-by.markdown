@@ -3,8 +3,9 @@ category: articles
 date: 2017-05-18
 excerpt: Soundgarden was always on the periphery, always high quality, but never The Band That Could Be Your Life.
 header:
-  overlay_image: http://www.guerrillacandy.com/wp-content/uploads/2013/01/corneltim.jpg
-  overlay_filter: 0.5
+  caption: Max Vadukul
+  overlay_image: http://media.cleveland.com/popmusic_impact/photo/chris-cornell-max-vadukuljpg-4a51821142ea7d95.jpg
+  overlay_filter: 0.3
   # overlay_color: "#333"
 medium: https://medium.com/@lendamico/the-seasons-roll-on-by-9a90b6515dff
 tags:

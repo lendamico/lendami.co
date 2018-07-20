@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Len Damico"
   avatar           : "/assets/img/lendamico_avi.jpg"
-  bio              : "Head of Design, Arcweb Technologies. Founding member, PHL Design Co. Formerly/forever Roar Lions Roar."
+  bio              : # "Head of Design, Arcweb Technologies. Founding member, PHL Design Co. Formerly/forever Roar Lions Roar."
   location         : "Wilmington, DE"
   email            : len@lendamico.com
   uri              :
@@ -236,19 +236,19 @@ category_archive:
   type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
     - categories
-#    - tags
+    - tags
   layouts:
     category: archive-taxonomy
-#    tag: archive-taxonomy
+    tag: archive-taxonomy
   permalinks:
     category: /:name/
-#    tag: /tags/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
