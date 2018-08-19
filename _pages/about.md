@@ -1,10 +1,9 @@
 ---
 layout: article
 permalink: /about/
-header:
+image:
   caption: "[Christian Kaye Photography](http://www.christiankaye.com)"
-  overlay_image: /assets/img/about-len-damico.jpg
-  overlay_filter: 0.5
+  feature: assets/img/about-len-damico.jpg
   # overlay_color: "#333"
 title: about me
 ---

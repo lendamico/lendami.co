@@ -1,0 +1,4 @@
+---
+permalink: work
+title: work
+---

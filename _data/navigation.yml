@@ -1,6 +1,19 @@
 # Site navigation links
 
-- title:
-  url:
+- title: about
+  url: /about/
+  excerpt:
+  image:
+- title: archive
+  url: /archive/
+  excerpt:
+  image:
+- title: work
+  url: /work/
+  excerpt:
+  image:
+
+- title: colophon
+  url: /about/colophon
   excerpt:
   image:
