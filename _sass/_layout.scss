@@ -84,7 +84,7 @@
 /* Top menu navigation */
 
 .top-menu {
-	display: none;
+	//display: none;
 	position: relative;
 	@include media($medium) {
 		@include span-columns(12);
@@ -106,7 +106,7 @@
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $black;
-			text-transform: uppercase;
+			//text-transform: uppercase;
 		}
 	}
 }
