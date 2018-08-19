@@ -1,14 +1,6 @@
-# main links
-main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "about"
-    url: /about/
-  - title: "articles"
-    url: /articles/
-  - title: "notes"
-    url: /notes/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-  - title: "colophon"
-    url: /about/colophon/
+# Site navigation links
+
+- title:
+  url:
+  excerpt:
+  image:

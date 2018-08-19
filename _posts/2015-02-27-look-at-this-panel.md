@@ -6,10 +6,11 @@ link:
 medium:
 tags:
   - saga
-title: Look at this panel.
+title: "Look at this panel."
 ---
 
 ![Saga](/assets/img/saga25-marko.jpg)
+Look at this panel.
 
 *Look* at it. It is perfect.
 
