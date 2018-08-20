@@ -2,18 +2,15 @@
 
 - title: about
   url: /about/
-  excerpt:
-  image:
-- title: archive
-  url: /archive/
-  excerpt:
-  image:
+
+- title: speaking
+  url: /speaking/
+
 - title: work
   url: /work/
-  excerpt:
-  image:
+
+- title: archive
+  url: /archive/
 
 - title: colophon
   url: /about/colophon
-  excerpt:
-  image:
