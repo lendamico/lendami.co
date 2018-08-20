@@ -32,8 +32,8 @@ owner:
   google:
     ad-client:
     ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  bio: Head of Design at <a href="https://arcweb.co">Arcweb Technologies</a>. <br /> Founding Member of <a href="http://www.phldesign.co/">PHLDesign Co</a>. <br /> Founder/Advisor of <a href="https://roarlionsroar.com">Roar Lions Roar</a>.
+  avatar: len-damico-avi.jpg # 160x160 px image for author byline
   disqus-shortname:
 
 
