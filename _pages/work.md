@@ -1,4 +1,4 @@
 ---
-permalink: work
+permalink: /work/
 title: work
 ---
