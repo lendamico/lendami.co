@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+	<div class="wrap">
+		{% if page.image.feature %}
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="{{ site.url }}/assets/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
+				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		{% endif %}
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+			{% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
+		</div>
+		<div class="archive-wrap">
+			<div class="page-content">
+				{% capture written_year %}'None'{% endcapture %}
+				{% for post in site.posts %}
+				  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+				  {% if year != written_year %}
+				    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+				    {% capture written_year %}{{ year }}{% endcapture %}
+				  {% endif %}
+				 {% include post-list.html %}
+				{% endfor %}
+
+			</div><!-- /.page-content -->
+		</div class="archive-wrap"><!-- /.archive-wrap -->
+	</div><!-- /.wrap -->
+</div><!-- /#main -->
