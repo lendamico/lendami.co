@@ -6,11 +6,16 @@
 - title: speaking
   url: /speaking/
 
+- title: articles
+  url: /articles/
+
+- title: notes
+  url: /notes/
 # - title: work
 #  url: /work/
 
-- title: archive
-  url: /archive/
+# - title: archive
+#   url: /archive/
 
 - title: contact
   url: /contact/

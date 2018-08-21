@@ -2,14 +2,12 @@
 category: notes
 date: 2016-08-10
 excerpt: "A bunch of luminaries from the Penn State blogosphere got the itch and decided to start a new blog. For some reason, they let me tag along."
-link:
-medium:
-source:
+link: https://roarlionsroar.com
+source: Roar Lions Roar
 tags:
   - penn state
   - roar lions roar
-title: Roar Lions Roar
-fa: pencil-alt
+title: Introducing Roar Lions Roar
 ---
 
 > Onward State, Onward State, <br/>

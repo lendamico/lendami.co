@@ -2,18 +2,8 @@
 category: speaking
 date: 2010-10-27
 event: Ignite Wilmington
-excerpt:
-fa: chalkboard-teacher
 image:
-  credit:
-  creditlink:
-  feature:
   teaser: /speaking/ignite-wilmington.png
-link:
-medium:
-permalink:
-source:
-tags:
 title: Hacking A Layoff
 ---
 

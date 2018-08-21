@@ -5,6 +5,7 @@ excerpt: Stop reading this blog and go do something.
 link:
 medium:
 source:
+published: false
 tags:
   - personal
 title: Stop fucking around

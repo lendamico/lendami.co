@@ -2,16 +2,13 @@
 category: articles
 date: 2015-04-15
 excerpt: When you're Jony Ive, what's two millimeters, in the grand scheme of things?
-header:
-  overlay_image: /assets/img/posts/2015-04-15-the-purely-aesthetic-form.jpg
-  overlay_filter: 0.8
-  # overlay_color: "#333"
+image:
+  feature: /articles/the-purely-aesthetic-form.jpg
 medium: https://medium.com/@lendamico/the-purely-aesthetic-form-ad21224d08a4
 tags:
   - design
   - jony ive
 title: '&ldquo;The purely aesthetic form&rdquo;'
-fa: pencil-alt
 ---
 
 I'm about halfway through [Jony Ive: The Genius Behind Apple’s Greatest Products](https://www.goodreads.com/book/show/17707768-jony-ive). So far, it's a good read. It portrays Ive as someone with exquisite taste who was in the right place at the right time, willing to work harder and care more than his competitors. It never descends into hagiography (in spite of the sub-title), as many tech bios tend to do.
@@ -31,4 +28,4 @@ Outside-in product development is just as problematic as the inside-out approach
 
 Great product development is a true partnership between engineering and design.
 
-<p class="notice--info">Yes, I know. Jony Ive is perhaps the most celebrated industrial designer in the history of the field, and rightly so. And Apple has a track record of ignoring practical decisions in the pursuit of a product's true essence. That doesn't mean we can't examine a particular design challenge they faced and learn from it.</p>
+<p class="notice-info">Yes, I know. Jony Ive is perhaps the most celebrated industrial designer in the history of the field, and rightly so. And Apple has a track record of ignoring practical decisions in the pursuit of a product's true essence. That doesn't mean we can't examine a particular design challenge they faced and learn from it.</p>

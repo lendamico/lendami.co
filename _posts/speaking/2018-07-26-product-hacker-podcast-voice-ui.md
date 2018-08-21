@@ -2,18 +2,8 @@
 category: speaking
 date: 2018-07-26
 event: Product Hacker Podcast
-excerpt:
-fa: podcast
 image:
-  credit:
-  creditlink:
-  feature:
   teaser: /speaking/product-hacker.jpg
-link:
-medium:
-permalink:
-source:
-tags:
 title: How Do We Stop Cursing At Alexa?
 ---
 <!--more-->

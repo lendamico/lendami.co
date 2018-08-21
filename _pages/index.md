@@ -1,13 +1,11 @@
 ---
-layout: archive
 permalink: /
-title: "Latest Posts"
-#image:
-#  feature: about-len-damico.jpg
+title: posts by year
+layout: archive-year
 ---
-
+<!--
 <div class="tiles">
 {% for post in site.posts %}
 	{% include post-list.html %}
 {% endfor %}
-</div><!-- /.tiles -->
+</div><!-- /.tiles --> -->
