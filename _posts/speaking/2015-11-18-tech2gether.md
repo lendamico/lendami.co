@@ -5,7 +5,7 @@ excerpt:
 fa: chalkboard-teacher
 image:
   credit: Christian Kaye Photography
-  creditlink: http://www.christiankaye.com
+  creditlink: "http://www.christiankaye.com"
   feature: /speaking/lendamico-tech2gether2015.jpg
   teaser: /speaking/tech2gether.jpg
 link:
