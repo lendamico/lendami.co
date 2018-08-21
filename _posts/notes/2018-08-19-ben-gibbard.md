@@ -1,5 +1,6 @@
 ---
 title: "&ldquo;I'll never have another year like that.&rdquo;"
+category: notes
 tags: music, death cab for cutie, ben gibbard
 fa: pencil-alt
 ---
