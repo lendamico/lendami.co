@@ -19,11 +19,15 @@ layout: default
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
+				{% if page.link %}<a class="btn-info" href="{{ page.link }}">Read on {{ page.source }}</a>{% endif %}
+				{% if page.medium %}<a class="btn" href="{{ page.medium }}">Read on Medium</a>{% endif %}
 				<hr />
 				<footer class="page-footer">
+
 					{% if page.categories %}{% include page-author.html %}{% endif %}
-				
+
 					{% include page-meta.html %}
+
 				</footer><!-- /.footer -->
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}

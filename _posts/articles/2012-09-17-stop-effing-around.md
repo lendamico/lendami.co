@@ -1,5 +1,5 @@
 ---
-category: article
+category: articles
 date: 2012-09-17
 excerpt: Stop reading this blog and go do something.
 link:

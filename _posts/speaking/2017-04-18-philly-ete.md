@@ -1,10 +1,19 @@
 ---
-title: "Philly ETE&#58; &ldquo;It’s All in the Questions You Ask&#58; Design Thinking 101&rdquo;"
+categories: speaking
 date: 2017-04-18
-category: speaking
-image:
-  teaser: /speaking/philly-ete.png
+excerpt:
 fa: chalkboard-teacher
+image:
+  credit:
+  creditlink:
+  feature:
+  teaser: /speaking/philly-ete.png
+link:
+medium:
+permalink:
+source:
+tags:
+title: "Philly ETE&#58; &ldquo;It’s All in the Questions You Ask&#58; Design Thinking 101&rdquo;"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgxygEvbEj4?rel=0" frameborder="0" allowfullscreen></iframe>
 

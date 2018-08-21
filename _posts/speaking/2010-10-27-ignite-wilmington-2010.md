@@ -1,13 +1,23 @@
 ---
-title: "Ignite Wilmington: &ldquo;Hacking A Layoff&rdquo;"
-category: speaking
+categories: speaking
 date: 2010-10-27
-image:
-  teaser: /speaking/ignite-wilmington.png
 excerpt:
 fa: chalkboard-teacher
+image:
+  credit:
+  creditlink:
+  feature:
+  teaser: /speaking/ignite-wilmington.png
+link:
+medium:
+permalink:
+source:
+tags:
+title: "Ignite Wilmington: &ldquo;Hacking A Layoff&rdquo;"
+category:
 ---
 
+<!--more -->
 <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/HTpPlhmItPs?rel=0" frameborder="0" allowfullscreen></iframe>
 
 I discussed my experience of being laid off for Ignite Wilmington 4.

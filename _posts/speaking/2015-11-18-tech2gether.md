@@ -1,14 +1,21 @@
 ---
-title: "Tech2Gether&#58; &ldquo;Democratizing Design with the Design Studio Method&rdquo;"
+categories: speaking
 date: 2015-11-18
-category: speaking
+excerpt:
 fa: chalkboard-teacher
 image:
-  feature: /speaking/lendamico-tech2gether2015.jpg
-  teaser: /speaking/tech2gether.jpg
   credit: Christian Kaye Photography
   creditlink: http://www.christiankaye.com
+  feature: /speaking/lendamico-tech2gether2015.jpg
+  teaser: /speaking/tech2gether.jpg
+link:
+medium:
+permalink:
+source:
+tags:
+title: "Tech2Gether&#58; &ldquo;Democratizing Design with the Design Studio Method&rdquo;"
 ---
+
 <!--more-->
 
 > Designers can't "own" UX; rather, they must empower product managers and engineers be part of it. UX can't just be a department; UX must be embedded in the culture of your organization. In this talk, I shared some of the methodologies we use to democratize design at Arcweb, and how you can use them to make better digital products.
