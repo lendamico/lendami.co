@@ -5,6 +5,7 @@ date: 2010-10-27
 image:
   teaser: /speaking/ignite-wilmington.png
 excerpt:
+fa: chalkboard-teacher
 ---
 
 <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/HTpPlhmItPs?rel=0" frameborder="0" allowfullscreen></iframe>

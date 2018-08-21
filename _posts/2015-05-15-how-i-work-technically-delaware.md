@@ -9,5 +9,6 @@ tags:
   - interview
   - technically delaware
 title: 'How I Work: Arcweb UX/UI Designer Len Damico'
+fa: quote-left
 ---
 My entry in Technical.ly's "How I Work" interview series.

@@ -7,6 +7,7 @@ medium:
 tags:
   - saga
 title: "Look at this panel."
+fa: pencil-alt
 ---
 
 ![Saga](/assets/img/saga25-marko.jpg)

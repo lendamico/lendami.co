@@ -6,6 +6,7 @@ medium: https://medium.com/@lendamico/affiliate-links-are-not-advertisingfebruar
 tags:
   - monetization
 title: Affiliate links are not advertising
+fa: pencil-alt
 ---
 
 **Advertising** materially affects the user’s experience of content. Banner advertising has long been the standard model for monetizing a web site. Banner ads create visual distraction and often cause longer load times and other problems with page rendering. A site that features banner advertising is almost unilaterally a worse experience than one that does not feature advertising.

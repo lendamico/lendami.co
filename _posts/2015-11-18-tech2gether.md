@@ -2,10 +2,12 @@
 title: "Tech2Gether&#58; &ldquo;Democratizing Design with the Design Studio Method&rdquo;"
 date: 2015-11-18
 category: speaking
+fa: chalkboard-teacher
 image:
   feature: /speaking/lendamico-tech2gether2015.jpg
   teaser: /speaking/tech2gether.jpg
-  credit: '<a href="http://www.christiankaye.com">Christian Kaye Photography</a>'
+  credit: Christian Kaye Photography
+  creditlink: http://www.christiankaye.com
 ---
 <!--more-->
 

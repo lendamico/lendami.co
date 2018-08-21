@@ -8,6 +8,7 @@ source: arcweb.co
 tags:
   - prototyping
 title: Why We Prototype
+fa: pencil-alt
 ---
 
 Here at Arcweb, we’ve been spending more time using [analog methods of exploring and communicating our ideas](http://arcweb.com/why-we-sketch/) and [we’ve augmented our UI design process with Sketch.app](http://arcweb.com/why-were-complementing-photoshop-with-sketch/). The next piece of the Arcweb design process that we’ll explore is prototyping.

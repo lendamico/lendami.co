@@ -3,6 +3,7 @@ category: speaking
 image:
   teaser: /speaking/product-hacker.jpg
 title: "Product Hacker Podcast: &ldquo;How Do We Stop Cursing At Alexa?&rdquo;"
+fa: podcast
 ---
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/6854341/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/01345f/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

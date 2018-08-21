@@ -11,6 +11,7 @@ tags:
   - design
   - jony ive
 title: '&ldquo;The purely aesthetic form&rdquo;'
+fa: pencil-alt
 ---
 
 I'm about halfway through [Jony Ive: The Genius Behind Apple’s Greatest Products](https://www.goodreads.com/book/show/17707768-jony-ive). So far, it's a good read. It portrays Ive as someone with exquisite taste who was in the right place at the right time, willing to work harder and care more than his competitors. It never descends into hagiography (in spite of the sub-title), as many tech bios tend to do.

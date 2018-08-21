@@ -8,7 +8,7 @@ tags:
   - design studio
   - participatory design
 title: Democratizing design with the Design Studio method
-toc: true
+fa: pencil-alt
 ---
 
 It takes a village to make a great digital product. Here's how we do it at [Arcweb Technologies](http://arcweb.co).

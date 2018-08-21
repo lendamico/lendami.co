@@ -4,6 +4,7 @@ date: 2017-04-18
 category: speaking
 image:
   teaser: /speaking/philly-ete.png
+fa: chalkboard-teacher
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgxygEvbEj4?rel=0" frameborder="0" allowfullscreen></iframe>
 

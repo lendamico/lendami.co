@@ -15,6 +15,7 @@ tags:
   - chris cornell
   - personal
 title: The seasons roll on by
+fa: pencil-alt
 ---
 
 Soundgarden was never my "favorite band."
