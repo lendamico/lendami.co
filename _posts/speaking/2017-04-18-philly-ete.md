@@ -1,5 +1,5 @@
 ---
-categories: speaking
+category: speaking
 date: 2017-04-18
 event: Philly ETE
 excerpt:

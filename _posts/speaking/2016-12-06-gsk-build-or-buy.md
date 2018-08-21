@@ -1,5 +1,5 @@
 ---
-categories: speaking
+category: speaking
 date: 2016-12-06
 event: GlaxoSmithKline
 excerpt:

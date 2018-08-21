@@ -1,5 +1,5 @@
 ---
-categories: speaking
+category: speaking
 date: 2018-07-26
 event: Product Hacker Podcast
 excerpt:

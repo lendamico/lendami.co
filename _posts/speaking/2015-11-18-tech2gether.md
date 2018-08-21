@@ -1,5 +1,5 @@
 ---
-categories: speaking
+category: speaking
 date: 2015-11-18
 event: Tech2Gether
 excerpt:

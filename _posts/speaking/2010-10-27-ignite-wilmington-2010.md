@@ -1,5 +1,5 @@
 ---
-categories: speaking
+category: speaking
 date: 2010-10-27
 event: Ignite Wilmington
 excerpt:
@@ -15,7 +15,6 @@ permalink:
 source:
 tags:
 title: Hacking A Layoff
-category:
 ---
 
 <!--more -->

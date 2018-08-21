@@ -1,5 +1,5 @@
 ---
-categories: speaking
+category: speaking
 date: 2017-06-28
 event: Product Tank Philadelphia
 excerpt:

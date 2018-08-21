@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+	<div class="wrap">
+		{% if page.image.feature %}
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="{{ site.url }}/assets/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
+				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		{% endif %}
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+			{% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
+		</div>
+		<div class="archive-wrap">
+			<div class="page-content">
+				{{ content }}
+	<div class="inner-wrap">
+				{% for post in site.categories.notes %}
+
+
+					<div id="content" class="page-content" itemprop="articleBody">
+						<div class="page-title">
+							<h1>{{ post.title }}</h1>
+						</div>
+						{{ post.content }}
+						{% if post.link %}<a class="btn-info" href="{{ post.link }}">Read on {{ post.source }}</a>{% endif %}
+						<div class="page-meta">
+							<p>{{ site.data.messages.locales[site.locale].updated }} {% if post.modified %}<time datetime="{{ post.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ post.modified | date: "%B %d, %Y" }}</time>{% else %}<time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+						</div><!-- /.page-meta -->
+						<hr />
+						<footer class="page-footer">
+							{% include page-meta.html %}
+
+						</footer><!-- /.footer -->
+
+				{% endfor %}
+				</div>
+			</div><!-- /.page-content -->
+		</div class="archive-wrap"><!-- /.archive-wrap -->
+	</div><!-- /.wrap -->
+</div><!-- /#main -->
