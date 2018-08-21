@@ -1,6 +1,7 @@
 ---
 categories: speaking
 date: 2010-10-27
+event: Ignite Wilmington
 excerpt:
 fa: chalkboard-teacher
 image:
@@ -13,7 +14,7 @@ medium:
 permalink:
 source:
 tags:
-title: "Ignite Wilmington: &ldquo;Hacking A Layoff&rdquo;"
+title: Hacking A Layoff
 category:
 ---
 

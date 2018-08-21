@@ -1,6 +1,7 @@
 ---
 categories: speaking
 date: 2018-07-26
+event: Product Hacker Podcast
 excerpt:
 fa: podcast
 image:
@@ -13,7 +14,7 @@ medium:
 permalink:
 source:
 tags:
-title: "Product Hacker Podcast: &ldquo;How Do We Stop Cursing At Alexa?&rdquo;"
+title: How Do We Stop Cursing At Alexa?
 ---
 <!--more-->
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/6854341/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/forward/render-playlist/no/custom-color/01345f/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

@@ -1,6 +1,7 @@
 ---
 categories: speaking
 date: 2017-06-28
+event: Product Tank Philadelphia
 excerpt:
 fa: chalkboard-teacher
 image:
@@ -13,7 +14,7 @@ medium:
 permalink:
 source:
 tags:
-title: "Product Tank Philadelphia&#58; &ldquo;The Design Studio Method for Product Owners&rdquo;"
+title: The Design Studio Method for Product Owners
 ---
 <!-- more -->
 

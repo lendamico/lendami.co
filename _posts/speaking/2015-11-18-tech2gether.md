@@ -1,6 +1,7 @@
 ---
 categories: speaking
 date: 2015-11-18
+event: Tech2Gether
 excerpt:
 fa: chalkboard-teacher
 image:
@@ -13,7 +14,7 @@ medium:
 permalink:
 source:
 tags:
-title: "Tech2Gether&#58; &ldquo;Democratizing Design with the Design Studio Method&rdquo;"
+title: Democratizing Design with the Design Studio Method
 ---
 
 <!--more-->
