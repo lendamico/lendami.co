@@ -1,11 +1,15 @@
 ---
+image:
+  feature: home.jpg
+layout: home
 permalink: /
-title: posts by year
-layout: archive-year
+title: Len Damico
+excerpt: user experience design leadership
+
 ---
-<!--
+## recent posts
 <div class="tiles">
-{% for post in site.posts %}
-	{% include post-list.html %}
+{% for post in site.posts limit:4 %}
+	{% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles --> -->
+</div>

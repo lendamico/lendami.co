@@ -236,7 +236,7 @@
 .page-lead {
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	//background-attachment: fixed;
 	text-align: center;
 	color: $white;
 	@include media($large) {
@@ -244,6 +244,7 @@
 	}
 }
 .page-lead-content {
+	text-shadow: 2px 2px #16161D;
 	padding: 1em;
 	@include media($medium) {
 		padding: 2em;

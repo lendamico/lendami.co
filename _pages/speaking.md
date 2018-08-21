@@ -11,6 +11,6 @@ I'd love to speak about participatory design, design leadership, or anything els
 
 <div class="tiles">
 {% for post in site.categories.speaking %}
-	{% include post-grid.html %}
+	{% include post-grid-speaking.html %}
 {% endfor %}
 </div><!-- /.tiles -->
