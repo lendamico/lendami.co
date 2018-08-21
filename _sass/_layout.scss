@@ -57,8 +57,8 @@
 			position: relative;
 			display: block;
 			margin-right: $gutter;
-			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
-			height: $masthead-height;
+			padding: (.125 * $masthead-height) 0 (.125 * $masthead-height) ;
+			height: (.5 * $masthead-height);
 			font-family: $alt-font;
 			&:before,
 			&:after {
@@ -76,7 +76,8 @@
 			}
 			&:after {
 				width: 0;
-				background: $black;
+				//background: $black;
+				@include gradient;
 			}
 			&:active:after,
 			&:hover:after {
