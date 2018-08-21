@@ -18,6 +18,11 @@
 		@include outer-container;
 	}
 }
+.sparkle {
+	@include gradient;
+	height: (.125 * $masthead-height);
+}
+
 .site-title {
 	@include row;
 	@include media($large) {
