@@ -37,6 +37,9 @@
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
+	@include media($micro) {
+		height: (1.5 * $masthead-height);
+	}
 }
 
 
@@ -57,9 +60,12 @@
 			position: relative;
 			display: block;
 			margin-right: $gutter;
-			padding: (.125 * $masthead-height) 0 (.125 * $masthead-height) ;
+			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
 			height: (.5 * $masthead-height);
 			font-family: $alt-font;
+			@include media($micro){
+				margin-right: (.5 * $gutter);
+			}
 			&:before,
 			&:after {
 				content: '';
@@ -112,6 +118,7 @@
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $black;
+
 			//text-transform: uppercase;
 		}
 	}

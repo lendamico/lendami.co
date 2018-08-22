@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /speaking/
-title: "speaking"
+title: speaking
 #image:
 #  feature: about-len-damico.jpg
 ---
