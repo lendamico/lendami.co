@@ -33,7 +33,7 @@
 
 .btn-inverse {
 	@extend .btn;
-	background-color: $white;
+	background-color: $body-color;
 	color: $text-color;
 	&:visited,
 	&:active {
@@ -106,6 +106,22 @@
 	}
 	&:hover {
 		background-color: lighten($danger-color, 10);
+	}
+}
+
+/*
+   Brand button .btn-gradient
+   ========================================================================== */
+
+.btn-gradient {
+	@extend .btn;
+	@include gradient;
+	color: $white;
+	&:visited {
+		color: $white;
+	}
+	&:hover {
+		opacity: 0.85;
 	}
 }
 
