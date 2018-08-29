@@ -64,6 +64,7 @@ exclude:
   - package.json
   - spec
   - tmp
+  - native
 
 
 defaults:
