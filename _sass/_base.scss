@@ -20,7 +20,7 @@ p {
 li {
 	@include font-size(16,12,24);
 }
-
+span.date  {color: lighten($base-color, 50);}
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {

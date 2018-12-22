@@ -5,6 +5,7 @@ event: Product Tank Philadelphia
 image:
   teaser: /speaking/product-tank.jpg
 title: The Design Studio Method for Product Owners
+
 ---
 <!-- more -->
 

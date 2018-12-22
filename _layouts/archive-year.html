@@ -14,7 +14,7 @@ layout: default
 		{% endif %}
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
-			{% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
+			<p>{{ page.content }}</p>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
@@ -26,8 +26,9 @@ layout: default
 				    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
 				    {% capture written_year %}{{ year }}{% endcapture %}
 				  {% endif %}
-						<ul class="fa-ul">
-				 {% include post-list.html %}
+						<ul >
+							<li>  <a class="h5" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <span class="date">({{ post.category }}</a>, {{ post.date | date: "%B %d, %Y" }})</span></li>
+
 				 	</ul>
 				{% endfor %}
 

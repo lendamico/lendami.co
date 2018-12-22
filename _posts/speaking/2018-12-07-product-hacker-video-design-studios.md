@@ -5,6 +5,7 @@ event: Product Hacker Video
 image:
   teaser: /speaking/product-hacker.jpg
 title: Understanding Design Studios
+
 ---
 <!--more-->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRgYPg3HYyA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
