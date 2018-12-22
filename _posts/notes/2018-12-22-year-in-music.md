@@ -17,7 +17,7 @@ I’d be quite surprised if this record doesn’t end up occupying a place of pr
 
 ## How my listening habits changed in 2018
 
-A couple new development changed the way I listen to music in 2018:
+Two new developments changed the way I listen to music in 2018:
 
 #### Spotify
 In March, I ditched Apple Music (which I had subscribed to from day one) and signed up for Spotify.
