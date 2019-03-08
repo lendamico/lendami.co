@@ -8,6 +8,7 @@ layout: archive
 {% for post in site.categories.notes %}
 {% include post-list.html %}
 
+
 {% endfor %}
 
 </div><!-- /.tiles -->
