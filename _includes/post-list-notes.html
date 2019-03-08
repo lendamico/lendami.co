@@ -1,0 +1,19 @@
+
+<div class="inner-wrap">
+  {% if page.title %}
+    <div class="page-title">
+      <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+    </div>
+    {% endif %}
+    {{ post.content }}
+    {% if post.link %}<a class="btn-info" href="{{ post.link }}">Read on {{ post.source }}</a>{% endif %}
+    <div class="page-meta">
+      <p>{{ site.data.messages.locales[site.locale].updated }} {% if post.modified %}<time datetime="{{ post.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ post.modified | date: "%B %d, %Y" }}</time>{% else %}<time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+    </div><!-- /.page-meta -->
+    <hr />
+    <footer class="page-footer">
+      {% include page-meta.html %}
+
+    </footer><!-- /.footer -->
+
+</div>
