@@ -1,9 +1,11 @@
 ---
-category: speaking
+category: design
 date: 2018-07-26
 event: Product Hacker Podcast
 image:
   teaser: /speaking/product-hacker.jpg
+kind: speaking
+tags: podcast, voice ui
 title: How Do We Stop Cursing At Alexa?
 fa: podcast
 ---

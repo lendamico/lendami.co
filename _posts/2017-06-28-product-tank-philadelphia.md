@@ -1,9 +1,11 @@
 ---
-category: speaking
+category: design
 date: 2017-06-28
 event: Product Tank Philadelphia
 image:
   teaser: /speaking/product-tank.jpg
+kind: speaking
+tags: design studio, product ownership
 title: The Design Studio Method for Product Owners
 
 ---

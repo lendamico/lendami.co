@@ -1,10 +1,12 @@
 ---
-category: speaking
+category: design
 date: 2016-12-06
 event: GlaxoSmithKline
 image:
   teaser: /speaking/gsk.jpg
+kind: speaking
 published: false
+tag: design studio
 title: Build or Buy with The Design Studio Method
 ---
 <!--more-->

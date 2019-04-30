@@ -1,9 +1,11 @@
 ---
-category: speaking
+category: design
 date: 2017-04-18
 event: Philly ETE
 image:
   teaser: /speaking/philly-ete.png
+kind: speaking
+tags: design thinking, design studio
 title: "It’s All in the Questions You Ask&#58; Design Thinking 101"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgxygEvbEj4?rel=0" frameborder="0" allowfullscreen></iframe>

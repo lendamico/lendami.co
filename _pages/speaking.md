@@ -10,7 +10,10 @@ I'd love to speak about participatory design, design leadership, or anything els
 <a href="/contact/" class="btn-gradient">Let's talk!<a>
 
 <div class="tiles">
-{% for post in site.categories.speaking %}
+{% for post in site.posts %}
+{% if post.kind == "speaking" %}
 	{% include post-grid-speaking.html %}
+	{% else %}
+	{% endif %}
 {% endfor %}
 </div><!-- /.tiles -->

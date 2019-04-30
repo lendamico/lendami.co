@@ -1,5 +1,5 @@
 ---
-category: speaking
+category: design
 date: 2015-11-18
 event: Tech2Gether
 image:
@@ -7,6 +7,8 @@ image:
   creditlink: "http&#58;//www.christiankaye.com"
   feature: /speaking/lendamico-tech2gether2015.jpg
   teaser: /speaking/tech2gether.jpg
+kind: speaking
+tags: design studio
 title: Democratizing Design with the Design Studio Method
 ---
 

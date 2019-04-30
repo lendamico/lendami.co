@@ -1,9 +1,11 @@
 ---
-category: speaking
+category: design
 date: 2018-12-07
 event: Product Hacker Video
 image:
   teaser: /speaking/product-hacker.jpg
+kind: speaking
+tags: design studio, video
 title: Understanding Design Studios
 
 ---

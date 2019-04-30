@@ -1,9 +1,10 @@
 ---
-category: speaking
+category: life
 date: 2010-10-27
 event: Ignite Wilmington
 image:
   teaser: /speaking/ignite-wilmington.png
+kind: speaking
 title: Hacking A Layoff
 ---
 
