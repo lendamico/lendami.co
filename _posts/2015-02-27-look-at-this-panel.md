@@ -1,16 +1,15 @@
 ---
-category: notes
+category:
 date: 2015-02-27
 fa: pencil-alt
 image:
   feature: /notes/saga25-marko.jpg
-tags: saga
-title: Look at this panel
+kind: post
+tags: saga, comics
+title: Look at this panel.
 ---
 
 *Look* at it. It is perfect.
-
-<!-- more -->
 
 It's from [Saga #25](https://www.comixology.com/Saga-25/digital-comic/191648?ref=c2l0ZS9saXN0L2Rlc2t0b3AvZ3JpZExpc3QvSXNzdWVz), which is my favorite comic book in the world right now.
 
