@@ -27,7 +27,7 @@ layout: default
 				    {% capture written_year %}{{ year }}{% endcapture %}
 				  {% endif %}
 						<ul >
-							<li>  <a class="h5" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <span class="date">({{ post.category }}</a>, {{ post.date | date: "%B %d, %Y" }})</span></li>
+							<li>  <a class="h5" href="{{ site.url }}{{ post.url }}">{{ post.title  | downcase }}</a> <span class="date">({{ post.kind }}</a>, {{ post.date | date: "%B %d, %Y" }})</span></li>
 
 				 	</ul>
 				{% endfor %}

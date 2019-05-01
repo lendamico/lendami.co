@@ -1,6 +1,7 @@
 ---
-category: notes
+category: design
 date: 2013-02-28
+kind: link
 link: http://essentiacreative.com/resolution-independent-platform-agnostic/
 source:  shiny.agency
 title: resolution independent, platform agnostic

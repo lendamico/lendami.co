@@ -1,9 +1,9 @@
 ---
-category: notes
+category: me
 date: 2014-10-14
+kind: link
 link: https://arcweb.co/meet-arcweb-user-experience-designer-len-damico/
 source: arcweb.co
-tags: interview
 title: Meet Arcweb User Experience Designer Len Damico
 ---
 

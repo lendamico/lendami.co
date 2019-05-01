@@ -1,7 +1,8 @@
 ---
-category: articles
+category: coding
 date: 2012-12-06
 excerpt: ou have to crawl before you can walk, and you have to understand Git on the command line before one of these fancy-pants GUIs will be helpful.
+kind: post
 tags: git
 title: The Thing About Git
 ---

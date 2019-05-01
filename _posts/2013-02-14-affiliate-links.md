@@ -1,8 +1,9 @@
 ---
-category: articles
+category:
 date: 2013-02-14
 excerpt: Describing a site as “ad-free” and funding your site via affiliate links is not a contradiction.
 medium: https://medium.com/@lendamico/affiliate-links-are-not-advertisingfebruary-14-2013-17ffda49c248
+kind: post
 tags:
   - monetization
 title: Affiliate links are not advertising

@@ -1,7 +1,8 @@
 ---
-category: notes
+category: music
 date: 2018-12-22
-tags: music, best of 2018
+kind: post
+tags: best of 2018, hop along, joni mitchell
 title: My Year in Music
 ---
 My 2018 in music can be best summed up in five words: “Bark Your Head Off, Dog.”

@@ -1,11 +1,11 @@
 ---
-category: notes
+category: penn state
 date: 2016-08-10
 excerpt: "A bunch of luminaries from the Penn State blogosphere got the itch and decided to start a new blog. For some reason, they let me tag along."
+kind: link
 link: https://roarlionsroar.com
 source: Roar Lions Roar
 tags:
-  - penn state
   - roar lions roar
 title: Introducing Roar Lions Roar
 ---

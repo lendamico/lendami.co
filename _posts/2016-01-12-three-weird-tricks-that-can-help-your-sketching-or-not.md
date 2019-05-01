@@ -1,5 +1,5 @@
 ---
-category: articles
+category: design
 date: 2016-01-12
 excerpt:
 image:
@@ -7,9 +7,11 @@ image:
   creditlink:
   feature: /articles/sketch-hacks-len-damico.jpg
   teaser:
+kind: post
 link: https://arcweb.co/three-weird-tricks-that-can-help-your-sketching-or-not/
 medium: https://medium.com/the-product-blog/three-weird-tricks-that-can-help-your-sketching-or-not-f53bb0a583a0#.s0f2fpib1
 source: arcweb.co
+tags: sketching
 title: Three Weird Tricks That Might Help Your Sketching (or not)
 ---
 

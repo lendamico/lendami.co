@@ -1,7 +1,8 @@
 ---
-category: notes
+category: music
 date: 2018-08-19
-tags: music, death cab for cutie, ben gibbard
+kind: post
+tags: death cab for cutie, ben gibbard
 title: "&ldquo;I'll never have another year like that&rdquo;"
 ---
 Ben Gibbard's been doing the rounds to promote Death Cab for Cutie's quite good new record, [Thank You For Today](https://open.spotify.com/album/6agCM9GJcebduMddgFmgsO?si=JZ3I54gGR7y6LKaNJcmTqg).

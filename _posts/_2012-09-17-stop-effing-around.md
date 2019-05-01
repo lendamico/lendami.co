@@ -1,13 +1,13 @@
 ---
-category: articles
+category:
 date: 2012-09-17
 excerpt: Stop reading this blog and go do something.
+kind: post
 link:
 medium:
 source:
 published: false
 tags:
-  - personal
 title: Stop fucking around
 fa: pencil-alt
 

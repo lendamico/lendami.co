@@ -1,6 +1,7 @@
 ---
-category: notes
+category: design
 date: 2015-05-13
+kind: link
 link: https://arcweb.co/design-thoughtful-error-state-messaging/
 source: arcweb.co
 title: Put Users In Control With Thoughtful Error Messaging
