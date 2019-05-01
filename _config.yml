@@ -23,7 +23,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
-permalink: /:categories/:year-:month-:day/:title/
+permalink: /:year-:month-:day/:title/
 
 # Site owner
 owner:
