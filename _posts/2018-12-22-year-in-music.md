@@ -1,7 +1,7 @@
 ---
 category: music
 date: 2018-12-22
-kind: post
+kind: article
 tags: best of 2018, hop along, joni mitchell
 title: My Year in Music
 ---

@@ -4,7 +4,7 @@ date: 2015-02-27
 fa: pencil-alt
 image:
   feature: /notes/saga25-marko.jpg
-kind: post
+kind: article
 tags: saga, comics
 title: Look at this panel.
 ---

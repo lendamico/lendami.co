@@ -1,7 +1,7 @@
 ---
 category: music
 date: 2018-08-19
-kind: post
+kind: article
 tags: death cab for cutie, ben gibbard
 title: "&ldquo;I'll never have another year like that&rdquo;"
 ---

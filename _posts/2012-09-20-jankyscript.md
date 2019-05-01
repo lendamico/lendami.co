@@ -2,7 +2,7 @@
 category: coding
 date: 2012-09-20
 excerpt: Don't let the paralysis of planning take over before you even get a working version of your code.
-kind: post
+kind: article
 title: JankyScript
 ---
 

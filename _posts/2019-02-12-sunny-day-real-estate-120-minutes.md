@@ -2,7 +2,7 @@
 category: music
 date: 2019-02-12
 excerpt: Y’know how the YouTube algorithm is awful, but sometimes it serves you a gem that feels like a piece of yourself in a time capsule?
-kind: post
+kind: article
 tags: sunny day real estate, 120 minutes
 title: Shakespeare turned dust to dust
 ---

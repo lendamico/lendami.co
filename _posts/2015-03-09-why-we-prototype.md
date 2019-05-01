@@ -2,7 +2,7 @@
 category: design
 date: 2015-03-09
 excerpt: Prototyping helps us build customer value from the day we begin a project.
-kind: post
+kind: article
 link: https://arcweb.co/why-we-prototype/
 medium:
 permalink:
