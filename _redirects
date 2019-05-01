@@ -3,6 +3,6 @@ https://lendamico.com/* https://lendami.co/:splat 301!
 
 # removing categories from permalinks
 
-/speaking/*   /*
-/notes/*      /*
-/articles/*   /*
+/speaking/*   /:splat
+/notes/*      /:splat
+/articles/*   /:splat
