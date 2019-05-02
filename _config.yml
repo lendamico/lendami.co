@@ -14,7 +14,7 @@ feed:
 sass:
   sass_dir: _sass
   style: compressed
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
@@ -22,6 +22,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-archives
 
 permalink: /:year-:month-:day/:title/
 
@@ -81,3 +82,14 @@ defaults:
       type: pages
     values:
       layout: article
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive-category
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/:name/'
