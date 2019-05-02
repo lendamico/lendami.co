@@ -1,5 +1,5 @@
 ---
-permalink: /links/
+permalink: /kind/links/
 title: links
 layout: archive
 ---

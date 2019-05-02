@@ -92,4 +92,4 @@ jekyll-archives:
     month: '/:year/:month/'
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
-    category: '/:name/'
+    category: '/category/:name/'

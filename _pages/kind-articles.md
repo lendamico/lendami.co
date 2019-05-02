@@ -1,5 +1,5 @@
 ---
-permalink: /articles/
+permalink: /kind/articles/
 title: articles
 layout: archive
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /notes/
+permalink: /kind/notes/
 title: notes
 layout: archive
 ---

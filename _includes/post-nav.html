@@ -1,0 +1,13 @@
+<ul>
+		<li>Posts <a href="{{ site.url }}/archive/">by year</a>.</li>
+		<li>Post kinds:
+	{% for link in site.data.post-nav %}
+    <a href="{{ site.url }}/kind/{{ link.kind }}">{{ link.kind | capitalize }}</a>
+  {% endfor %}
+		</li>
+		<li>Categories:
+	{% for link in site.data.post-nav %}
+    <a href="{{ site.url }}/category/{{ link.category | slugify }}">{{ link.category }}</a>
+  {% endfor %}
+		</li>
+</ul>
