@@ -5,25 +5,25 @@
   <body>
     {% include header.html %}
 
-    {% if page.image.feature %}
-    <div class="page-lead" style="background-image:url({{ site.url }}/assets/images/{{ page.image.feature }})">
-      <div class="wrap page-lead-content">
+
+      <div class="wrap ">
         <h1>{{ page.title }}</h1>
         <h2> {{ page.excerpt }}</h2>
-        <a href="/about/" class="btn-inverse">about me</a>
       </div><!-- /.page-lead-content -->
-    </div><!-- /.page-lead -->
-    {% endif %}
+     
 
     <div id="page-wrapper">
       {% include browser-upgrade.html %}
-
+	  <div id="">
       <div id="main" role="main">
         <div class="wrap">
-
+  		  <div class="inner-wrap">
+			  {{ content }}
+		  </div>
           <div class="archive-wrap">
             <div class="page-content">
-              {{ content }}
+				
+	
             </div><!-- /.page-content -->
           </div class="archive-wrap"><!-- /.archive-wrap -->
         </div><!-- /.wrap -->

@@ -1,18 +1,31 @@
 ---
 image:
-#  feature: patrick-tomasso-208114-unsplash.jpg
 layout: archive
 permalink: /
 title: Welcome!
 excerpt: I'm Len Damico, Head of Design at Arcweb Technologies.
 ---
-<a href="/about/" class="btn-gradient">about me</a>
+
+At [Arcweb](http://arcweb.co), a digital product design consultancy located in Old City, Philadelphia, I lead a team of designers who make software that is easy to use, aligned with business goals, and as delightful as it can&nbsp;be.
+
+Over the course of my career, I've led mobile initiatives for companies like Children's Hospital of Philadelphia, Chase, DirecTV, New York Life and The Company Corporation, as well as helped companies like Capital One and Zonoff make better software for their internal users. Prior to joining Arcweb, I spent over a dozen years in advertising, leading multichannel marketing efforts for Barclaycard US, the Delaware Lottery and Sallie Mae and winning several regional Ad Club and Addy&nbsp;awards.
+
+I am also a founding member of [PHLDesign Co](http://phldesign.co), the region’s premier online community for designers, and [Roar Lions Roar](http://roarlionsroar.com), the best independent Penn State sports blog out&nbsp;there.
+
+I live just outside of Wilmington, Delaware, with my [wife](https://joannedamico.me) and two&nbsp;sons.
+
 
 <hr />
+#### I'd love to speak at your next design-related event.
+I particlulary love to talk about participatory design and desing leadership. Here are a few talks, videos and podcasts I've done.
 
-#### speaking
 <div class="tiles">
-{% for post in site.posts limit:4 %}
-	{% include post-grid.html %}
+{% for post in site.posts limit:4%}
+{% if post.kind == "speaking" %}
+	{% include post-grid-speaking.html %}
+	{% else %}
+	{% endif %}
 {% endfor %}
-</div>
+</div><!-- /.tiles -->
+
+<a href="/speaking/" class="btn-gradient">See more Sepaking</a>
