@@ -10,7 +10,7 @@ excerpt: I'm Len Damico, Head of Design at Arcweb Technologies.
 
 <hr />
 
-#### recent posts
+#### speaking
 <div class="tiles">
 {% for post in site.posts limit:4 %}
 	{% include post-grid.html %}
