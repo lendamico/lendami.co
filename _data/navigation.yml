@@ -1,7 +1,7 @@
 # Site navigation links
 
-- title: about
-  url: /about/
+##- title: about
+##  url: /about/
 
 - title: speaking
   url: /speaking/
@@ -14,8 +14,8 @@
 # - title: work
 #  url: /work/
 
-- title: all posts
-  url: /posts/
+- title: blog
+  url: https://blog.lendami.co
 
 - title: contact
   url: /contact/
