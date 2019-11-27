@@ -7,7 +7,7 @@ image:
 kind: speaking
 tags: design studio, product ownership
 title: The Design Studio Method for Product Owners
-
+feature: home
 ---
 <!-- more -->
 

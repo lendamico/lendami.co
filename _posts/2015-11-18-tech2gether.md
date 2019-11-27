@@ -7,9 +7,10 @@ image:
   creditlink: "http&#58;//www.christiankaye.com"
   feature: /speaking/lendamico-tech2gether2015.jpg
   teaser: /speaking/tech2gether.jpg
-kind: speaking
-tags: design studio
+kind: speaking 
 title: Democratizing Design with the Design Studio Method
+feature: home
+
 ---
 
 <!--more-->
