@@ -1,21 +1,16 @@
 # Site navigation links
 
-##- title: about
-##  url: /about/
-
 - title: speaking
   url: /speaking/
 
-#- title: articles
-#  url: /articles/
-
-#- title: notes
-#  url: /notes/
-# - title: work
-#  url: /work/
-
 - title: blog
   url: https://blog.lendami.co
+  
+- title: archive
+  url: https://blog.lendami.co/archive/
+  
+- title: photos
+  url: https://blog.lendami.co/photos
 
 - title: contact
   url: /contact/
