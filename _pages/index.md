@@ -17,7 +17,7 @@ I live just outside of Wilmington, Delaware, with my [wife](https://joannedamico
 
 <hr />
 #### I'd love to speak at your next design-related event.
-I particlulary love to talk about participatory design and desing leadership. Here are a few talks, videos and podcasts I've done.
+I especially love to talk about participatory design and design leadership. Here are a few talks, videos and podcasts I've done.
 
 <a href="/speaking/" class="btn-gradient">See more Sepaking</a>
 
