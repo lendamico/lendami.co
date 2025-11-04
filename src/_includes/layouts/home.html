@@ -2,6 +2,15 @@
 {% block content %}
 <article>
 	<h1>{{ title }}</h1>
-	{{ content | safe }}
+	<div>
+        <ol class="[ post-list ] [ flow ]">
+            {% for item in collections.firehose %}
+            <li>
+                <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
 </article>
 {% endblock %}
+
