@@ -1,5 +1,4 @@
 ---
-
 date: 2025-04-22T10:36:05-0400
 title: I didn't even realize…
 categories:

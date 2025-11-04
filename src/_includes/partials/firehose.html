@@ -1,0 +1,17 @@
+	<div>
+        <ul>
+        {% for item in collections.firehose %}
+            <li>
+                {% if "/notes/" in item.inputPath  %}
+                    <article>
+                        {{ item.data.date }}
+                        {{ item.content | safe }}
+                    </article>
+                {% else %}
+                        <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+
