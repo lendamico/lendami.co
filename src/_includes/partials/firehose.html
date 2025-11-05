@@ -4,11 +4,11 @@
             <li>
                 {% if "/notes/" in item.inputPath  %}
                     <article>
-                        {{ item.data.date }}
+                        <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
                         {{ item.content | safe }}
                     </article>
                 {% else %}
-                        <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a>
+                        {{ item.data.date | dateFilter }} <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a> 
                 {% endif %}
             </li>
         {% endfor %}

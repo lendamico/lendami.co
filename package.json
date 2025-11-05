@@ -4,7 +4,8 @@
   "description": "Built with [Eleventy](https://www.11ty.dev/), a simpler static site generator.",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"  },
+    "start": "npx eleventy --serve"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lendamico/lendami.co.git"
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/lendamico/lendami.co#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "moment": "^2.30.1"
   }
 }
