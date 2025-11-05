@@ -12,6 +12,7 @@ module.exports = (config) => {
 	const notesGlob     = "./src/notes/*.md";
 	const playlistsGlob = "./src/playlists/*.md";
 	const linksGlob     = "./src/links/*.md";
+	const photosGlob     = "./src/photos/*.md";
 	const nowGlob       = "./src/now/*.md";
   	const usesGlob   	= "./src/uses/*.md";
 
@@ -20,6 +21,7 @@ module.exports = (config) => {
   	config.addCollection("notes",     api => api.getFilteredByGlob(notesGlob));
   	config.addCollection("playlists", api => api.getFilteredByGlob(playlistsGlob));
   	config.addCollection("links",     api => api.getFilteredByGlob(linksGlob));
+	config.addCollection("photos",     api => api.getFilteredByGlob(photosGlob));
   	config.addCollection("now",       api => api.getFilteredByGlob(nowGlob));
   	config.addCollection("uses",      api => api.getFilteredByGlob(usesGlob));
 
@@ -29,6 +31,7 @@ module.exports = (config) => {
     const notes     = api.getFilteredByGlob(notesGlob);
     const playlists = api.getFilteredByGlob(playlistsGlob);
     const links     = api.getFilteredByGlob(linksGlob);
+	const photos     = api.getFilteredByGlob(photosGlob);
     const now       = api.getFilteredByGlob(nowGlob);
 
     const combined = [
@@ -46,30 +49,6 @@ module.exports = (config) => {
     // Sort by newest first (fallback to 0 if no date)
     return unique.sort((a, b) => (b.date || 0) - (a.date || 0));
   });
-	/* // Returns a collection of blog posts in reverse date order
-	config.addCollection('posts', (collection) => {
-		return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
-	});
-	// Returns a collection of notes in reverse date order
-	config.addCollection('notes', (collection) => {
-		return [...collection.getFilteredByGlob('./src/notes/*.md')].reverse();
-	});
-	// Returns a collection of link posts in reverse date order
-	config.addCollection('links', (collection) => {
-		return [...collection.getFilteredByGlob('./src/links/*.md')].reverse();
-	});
-	// Returns a collection of playlists in reverse date order
-	config.addCollection('playlists', (collection) => {
-		return [...collection.getFilteredByGlob('./src/playlists/*.md')].reverse();
-	});
-	// Returns a collection of uses posts in reverse date order
-	config.addCollection('uses', (collection) => {
-		return [...collection.getFilteredByGlob('./src/uses/*.md')].reverse();
-	});
-	// Returns a collection of now posts in reverse date order
-	config.addCollection('now', (collection) => {
-		return [...collection.getFilteredByGlob('./src/now/*.md')].reverse();
-	}); */
 	
 	return {
 		markdownTemplateEngine: 'njk',

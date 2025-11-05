@@ -1,0 +1,4 @@
+<article>
+    <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
+    {{ item.content | safe }}
+</article>

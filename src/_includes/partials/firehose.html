@@ -3,12 +3,9 @@
         {% for item in collections.firehose %}
             <li>
                 {% if "/notes/" in item.inputPath  %}
-                    <article>
-                        <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
-                        {{ item.content | safe }}
-                    </article>
+                    {% include "partials/note.html" %}
                 {% else %}
-                        {{ item.data.date | dateFilter }} <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a> 
+                    {{ item.data.date | dateFilter }} <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a> 
                 {% endif %}
             </li>
         {% endfor %}
