@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/post.html'
+layout: 'layouts/postItem.html'
 title: "I voted"
 summary: ""
 date: 2024-10-30T21:46:06-0400

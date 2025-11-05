@@ -1,3 +1,3 @@
 ---
-layout: 'layouts/home.html'
+layout: 'layouts/blogPage.html'
 ---

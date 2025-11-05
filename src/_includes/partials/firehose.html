@@ -4,11 +4,12 @@
             <li>
                 {% if "/notes/" in item.inputPath  %}
                     {% include "partials/note.html" %}
+                {% elseif "/posts" in item.inputPath %}
+                    <h1><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h1>
+                    {{ item.data.date | dateFilter }} 
                 {% else %}
-                    {{ item.data.date | dateFilter }} <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a> 
                 {% endif %}
             </li>
         {% endfor %}
         </ul>
     </div>
-

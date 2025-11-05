@@ -1,4 +1,5 @@
 <article>
-    <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
     {{ item.content | safe }}
+    <time datetime="{{ item.data.date | w3DateFilter }}"><a href="{{ item.url }}" class="post-list__link">{{ item.data.date | dateFilter }}</a></time>
 </article>
+
