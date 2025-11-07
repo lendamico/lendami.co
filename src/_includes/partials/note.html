@@ -1,5 +1,13 @@
-<article>
-    {{ item.content | safe }}
-    <time datetime="{{ item.data.date | w3DateFilter }}"><a href="{{ item.url }}" class="post-list__link">{{ item.data.date | dateFilter }}</a></time>
-</article>
 
+{% if item is defined %}
+  {% set note = item %}
+{% elif page is defined %}
+  {% set note = page %}
+{% else %}
+  {% set note = {} %}
+{% endif %}
+
+<article>
+    {{ (note.templateContent  or content or "") | safe }}
+    <time datetime="{{ note.date | dateFilter }}"><a href="{{ item.url }}">{{ note.date | dateFilter }}</a></time>
+</article>

@@ -1,0 +1,17 @@
+
+{% if item is defined %}
+  {% set photo = item %}
+{% elif page is defined %}
+  {% set photo = page %}
+{% else %}
+  {% set photo = {} %}
+{% endif %}
+
+<article>
+    <figure>
+        <img src="{{ photo.data.imageCover or imageCover }}" alt="{{ photo.data.alt or alt }}"/>
+        <figcaption>{{ photo.data.caption or caption }}</figcaption>
+    </figure>
+    {{ (photo.templateContent  or content or "") | safe }}
+    <time datetime="{{ photo.data.date | dateFilter }}"><a href="{{ item.url }}">{{ photo.date | dateFilter }}</a></time>
+</article>
