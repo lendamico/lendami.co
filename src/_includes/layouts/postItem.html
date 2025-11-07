@@ -4,7 +4,7 @@
 <article>
 	<h1>{{ title }}</h1>
 	{{ content | safe }}
-	<p>Published on <time datetime="{{ item.data.date | dateFilter }}"><a href="{{ item.url }}" class="post-list__link">{{ item.data.date | dateFilter }}</a></time></p>
+	<p>Published on <time datetime="{{ item.data.date | dateFilter }}"><a href="{{ item.url }}" class="post-list__link">{{ date | dateFilter }}</a></time></p>
 </article>
 
 {% endblock %} 
