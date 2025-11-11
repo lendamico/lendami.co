@@ -5,7 +5,7 @@ const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 module.exports = (config) => {
 	// Set directories to pass through to the dist folder
-	config.addPassthroughCopy('./src/images/');	
+	config.addPassthroughCopy('./src/img/');	
 	
 	// Add filters
 	config.addFilter('dateFilter', dateFilter);
