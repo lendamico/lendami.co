@@ -1,6 +1,10 @@
 ---
 date: 2025-04-22T10:36:05-0400
 title: I didn't even realize it
+tags:
+- music
+- Oasis
+- travel
 bluesky:
   id: bafyreidhiactqucbtidyjji7fsg4qnyvkq6jfdoexrmbgocpnmmbzlh5n4
   url: 'at://did:plc:klqtn375kpja2tsk5hm35vxd/app.bsky.feed.post/3lnfvp2oyyg2s'

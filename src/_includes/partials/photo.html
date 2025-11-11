@@ -9,7 +9,7 @@
 
 <article>
     <figure>
-        <img src="{{ photo.data.imageCover or imageCover }}" alt="{{ photo.data.alt or alt }}"/>
+        <img src="{{ site.img }}/{{ photo.data.imageCover or imageCover }}" alt="{{ photo.data.alt or alt }}"/>
         <figcaption>{{ photo.data.caption or caption }}</figcaption>
     </figure>
     {{ (photo.templateContent  or content or "") | safe }}
