@@ -1,0 +1,24 @@
+{	
+    "items": [
+		{
+            "text": "Bluesky",
+            "icon": "",
+            "url": "https://bsky.app/profile/lendami.co/"
+        },
+        {
+            "text": "Email",
+            "icon": "",
+            "url": "mailto:len@lendami.co"
+        },
+        {
+            "text": "len.302 on Signal",
+            "icon": "",
+            "url": "https://signal.me/#eu/HUGIMUTBZ8_XU47rvZHJR_QheEOpNhJ0eAcSEdy6jjQflgatsrdN3K1eZGJL0nf4li"
+        },
+        {
+            "text": "Book a meeting",
+            "icon": "",
+            "url": "https://cal.com/lendamico"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<article>
+	<div>
+		<h1>{{ title }}</h1>
+		{{ content | safe }}
+		<h2>Personal</h2>
+		{% for item in elsewherePersonal.items %}
+		<li>
+			<a href="{{ item.url }}">{{ item.text }}</a>
+		</li>
+		{% endfor %}
+	</div>
+	<div>
+		<h2>Professional</h2>	
+		{% for item in elsewhereProfessional.items %}
+		<li>
+			<a href="{{ item.url }}">{{ item.text }}</a>
+		</li>
+		{% endfor %}
+	</div>
+	<div>
+		<h2>Musical</h2>	
+		{% for item in elsewhereMusical.items %}
+		<li>
+			<a href="{{ item.url }}">{{ item.text }}</a>
+		</li>
+		{% endfor %}
+	</div>
+		<div>
+		<h2>Political</h2>	
+		{% for item in elsewherePolitical.items %}
+		<li>
+			<a href="{{ item.url }}">{{ item.text }}</a>
+		</li>
+		{% endfor %}
+	</div>
+</article>
+{% endblock %}
