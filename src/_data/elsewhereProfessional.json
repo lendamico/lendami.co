@@ -1,0 +1,14 @@
+{ 
+    "items": [
+        {
+            "text": "Github",
+            "icon": "",
+            "url": "https://github.com/lendamico"
+        },
+        {
+            "text": "LinkedIn",
+            "icon": "",
+            "url": "https://www.linkedin.com/in/thelendamico/"
+        }
+    ]
+}
