@@ -1,4 +1,4 @@
 {
   "permalink": "/posts/{{ page.date | dateStamp }}/{{ title | slugify }}/index.html",
-  "layout": "layouts/postItem.html"
+  "layout": "layouts/single.html"
 }

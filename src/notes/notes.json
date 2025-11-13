@@ -1,5 +1,4 @@
 {
   "permalink": "/notes/{{ page.date | dateStamp }}/{{ title | slugify }}/index.html",
-  "layout": "layouts/noteItem.html"
+  "layout": "layouts/single.html"
 }
-

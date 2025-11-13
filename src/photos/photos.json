@@ -1,5 +1,5 @@
 {
   "permalink": "photos/{{ page.date | dateStamp }}/{{ title | slugify }}/index.html",
-  "layout": "layouts/photoItem.html"
+  "layout": "layouts/single.html"
 }
 

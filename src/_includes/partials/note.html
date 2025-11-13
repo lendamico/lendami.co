@@ -10,13 +10,6 @@
 <article>
     {{ (note.templateContent  or content or "") | safe }}
     <time datetime="{{ note.date | dateFilter }}"><a href="{{ item.url }}">{{ note.date | dateFilter }}</a></time>
-{% if tags %}
-	<ul class="tags-list" aria-describedby="tags-desc">
-	  {% for tag in tags %}
-		<li>
-		  <a href="/tag/{{ tag | slugify }}/">#{{ tag | title | replace(' ', '') }}</a>
-		</li>
-	  {% endfor %}
-	</ul>
-{% endif %}
+
 </article>
+
