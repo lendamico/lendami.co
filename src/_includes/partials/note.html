@@ -1,4 +1,7 @@
-
+{# 
+This partial renders a note item.
+TODO: refactor to clean up context collision with 'item' and 'page' variables.
+#}
 {% if item is defined %}
   {% set note = item %}
 {% elif page is defined %}

@@ -1,4 +1,8 @@
-
+{# 
+This partial renders a photo item.
+TODO: refactor to clean up context collision with 'item' and 'page' variables.
+TODO: Can alt and caption be combined? Maybe conditionally check for a caption and if none present, use alt text?
+#}
 {% if item is defined %}
   {% set photo = item %}
 {% elif page is defined %}

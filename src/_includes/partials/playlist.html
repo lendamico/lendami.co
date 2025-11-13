@@ -1,3 +1,8 @@
+{# 
+This partial renders a photo item.
+TODO: refactor to clean up context collision with 'item' and 'page' variables.
+TODO: Is it worth refactoring to only use the playlist ID rather than full URL?
+#}
 {% if item is defined %}
   {% set playlist = item %}
 {% elif page is defined %}
@@ -28,8 +33,6 @@
       <li><a href="{{ playlist.data.links.youtube }}">YouTube Music</a></li>
     {% endif %}
   </ul>
-
-<!--     <p><a href="{{ playlist.data.tag or tag}}">More {{ playlist.data.tag or tag }} posts like this one</a></p> -->
     <time datetime="{{ item.date | dateFilter }}"><a href="{{ item.url }}">{{ playlist.date | dateFilter }}</a></time>
 </article>
 

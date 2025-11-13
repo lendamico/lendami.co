@@ -1,6 +1,7 @@
 {% extends "layouts/base.html" %}
 {% block content %}
 Single
+{# TODO: explore abstracting this loop into a partial you can reuse in postList.html #}
 {% if "/notes/" in page.inputPath  %}
     {% include "partials/note.html" %}
 {% elseif "/photos/" in page.inputPath  %}
@@ -15,6 +16,10 @@ Single
     </article>
 {% else %}
 {% endif %}
+{# 
+TODO: abstract tags logic into partial, include in individual collection partials. combine with date/time into meta partial? 
+TODO: clean up context collision on individual collection type partials 
+#}
 {% if tags %}
 	<ul class="tags-list" aria-describedby="tags-desc">
 	  {% for tag in tags %}
