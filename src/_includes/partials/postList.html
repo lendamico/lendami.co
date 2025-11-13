@@ -8,11 +8,22 @@
 		<div>
 			<ol class="[ post-list ] [ flow ]">
 				{% for item in postListItems %}
-				<li class="[ post-list__item ] [ leading-tight measure-long ]">
-					<a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a>
-				</li>
+ 			{% if "/notes/" in item.inputPath  %}
+                {% include "partials/note.html" %}
+            {% elseif "/photos/" in item.inputPath  %}
+                {% include "partials/photo.html" %}
+            {% elseif "/playlists/" in item.inputPath  %}
+                {% include "partials/playlist.html" %}
+            {% elseif "/posts" in item.inputPath %}
+				<article>
+					<h1><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h1>
+					{{ item.data.date | dateFilter }} 
+				</article>
+            {% else %}
+            {% endif %}
 				{% endfor %}
 			</ol>
 		</div>
 	</div>
 </div>
+

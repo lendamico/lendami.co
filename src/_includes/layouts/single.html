@@ -1,0 +1,27 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+Single
+{% if "/notes/" in page.inputPath  %}
+    {% include "partials/note.html" %}
+{% elseif "/photos/" in page.inputPath  %}
+    {% include "partials/photo.html" %}		
+{% elseif "/playlists/" in page.inputPath  %}
+    {% include "partials/playlist.html" %}
+{% elseif "/posts" in page.inputPath %}
+    <article>
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+        <p>Published on <time datetime="{{ item.data.date | dateFilter }}">{{ date | dateFilter }}</time></p>
+    </article>
+{% else %}
+{% endif %}
+{% if tags %}
+	<ul class="tags-list" aria-describedby="tags-desc">
+	  {% for tag in tags %}
+		<li>
+		  <a href="/tag/{{ tag | slugify }}/">{{ tag | replace(' ', '') }}</a>
+		</li>
+	  {% endfor %}
+	</ul>
+{% endif %} 
+{% endblock %} 

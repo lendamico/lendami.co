@@ -1,7 +1,7 @@
 ---
 title: "Three Weird Tricks That Might Help Your Sketching (or not)"
-summary: ""
 date: 2016-01-12T11:54:00-0400
+tags: ['design']
 ---
 They might not work for you, though, and that's okay!
 

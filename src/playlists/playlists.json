@@ -1,5 +1,5 @@
 {
   "permalink": "/playlists/{{ page.date | dateStamp }}/{{ title | slugify }}/index.html",
-  "tag": "playlists",
-  "layout": "layouts/playlistItem.html"
+  "layout": "layouts/single.html",
+  "tags": "playlist"
 }
