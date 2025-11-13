@@ -9,8 +9,8 @@
 
 <article>
     <figure>
-        <img src="{{ site.img }}/{{ photo.data.imageCover or imageCover }}" alt="{{ photo.data.alt or alt }}"/>
-        <figcaption>{{ photo.data.caption or caption }}</figcaption>
+        <img src="{{ site.img }}/{{ photo.data.image.src or image.src }}" alt="{{ photo.data.image.alt or image.alt }}"/>
+        <figcaption>{{ photo.data.image.caption or image.caption }}</figcaption>
     </figure>
     {{ (photo.templateContent  or content or "") | safe }}
     <time datetime="{{ photo.data.date | dateFilter }}"><a href="{{ item.url }}">{{ photo.date | dateFilter }}</a></time>
