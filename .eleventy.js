@@ -1,3 +1,6 @@
+//plugins
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
+
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const dateStamp = require('./src/filters/date-stamp.js');
@@ -12,6 +15,9 @@ module.exports = (config) => {
 	config.addFilter('dateStamp', dateStamp);
 	config.addFilter('w3DateFilter', w3DateFilter);
 	
+	// Add plugins
+	config.addPlugin(rssPlugin);
+
 	// Define globs for each content type
 	const postsGlob     = "./src/posts/*.md";
 	const notesGlob     = "./src/notes/*.md";
