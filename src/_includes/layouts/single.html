@@ -2,20 +2,20 @@
 {% block content %}
 Single
 {# TODO: explore abstracting this loop into a partial you can reuse in postList.html #}
-{% if "/notes/" in page.inputPath  %}
-    {% include "partials/note.html" %}
-{% elseif "/photos/" in page.inputPath  %}
-    {% include "partials/photo.html" %}		
-{% elseif "/playlists/" in page.inputPath  %}
-    {% include "partials/playlist.html" %}
-{% elseif "/posts" in page.inputPath %}
-    <article>
-        <h1>{{ title }}</h1>
-        {{ content | safe }}
+<article>
+  {% if "/notes/" in page.inputPath  %}
+      {% include "partials/note.html" %}
+  {% elseif "/photos/" in page.inputPath  %}
+      {% include "partials/photo.html" %}		
+  {% elseif "/playlists/" in page.inputPath  %}
+      {% include "partials/playlist.html" %}
+  {% elseif "/posts" in page.inputPath %}
+      <h1>{{ title }}</h1>
+      {{ content | safe }}
         <p>Published on <time datetime="{{ item.data.date | dateFilter }}">{{ date | dateFilter }}</time></p>
-    </article>
-{% else %}
-{% endif %}
+  {% else %}
+  {% endif %}
+</article>
 {# 
 TODO: abstract tags logic into partial, include in individual collection partials. combine with date/time into meta partial? 
 TODO: clean up context collision on individual collection type partials 

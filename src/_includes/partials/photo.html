@@ -11,11 +11,10 @@ TODO: Can alt and caption be combined? Maybe conditionally check for a caption a
   {% set photo = {} %}
 {% endif %}
 
-<article>
-    <figure>
-        <img src="{{ site.img }}/{{ photo.data.image.src or image.src }}" alt="{{ photo.data.image.alt or image.alt }}"/>
-        <figcaption>{{ photo.data.image.caption or image.caption }}</figcaption>
-    </figure>
-    {{ (photo.templateContent  or content or "") | safe }}
-    <time datetime="{{ photo.data.date | dateFilter }}"><a href="{{ item.url }}">{{ photo.date | dateFilter }}</a></time>
-</article>
+<figure>
+    <img src="{{ site.img }}/{{ photo.data.image.src or image.src }}" alt="{{ photo.data.image.alt or image.alt }}"/>
+    <figcaption>{{ photo.data.image.caption or image.caption }}</figcaption>
+</figure>
+{{ (photo.templateContent  or content or "") | safe }}
+<time datetime="{{ photo.data.date | dateFilter }}"><a href="{{ item.url }}">{{ photo.date | dateFilter }}</a></time>
+

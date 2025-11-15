@@ -11,28 +11,24 @@ TODO: Is it worth refactoring to only use the playlist ID rather than full URL?
   {% set playlist = {} %}
 {% endif %}
 
-<article>
-    <h1> {{ (playlist.data.title or title) | safe }}</h1>
-     
-    <iframe style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px;" src="{{ playlist.data.links.embed or links.embed }}" height="450" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"></iframe>
+<h1> {{ (playlist.data.title or title) | safe }}</h1>
+<iframe style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px;" src="{{ playlist.data.links.embed or links.embed }}" height="450" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"></iframe>
+{{ (playlist.templateContent or content or "") | safe }}
+<h2>Listen:</h2>
+<ul>
+{% if playlist.data.links.apple or links.apple %}
+  <li><a href="{{ playlist.data.links.apple or links.apple }}">Apple Music</a></li>
+{% endif %}
+{% if playlist.data.links.lastfm or links.lastfm %}
+  <li><a href="{{ playlist.data.links.lastfm or links.lastfm }}">YouTube Music</a></li>
+{% endif %}
+{% if playlist.data.links.spotify or links.spotify %}
+  <li><a href="https://open.spotify.com/playlist/{{ playlist.data.links.spotify or links.spotify }}">Spotify</a></li>
+{% endif %}
+{% if playlist.data.links.youtube %}
+  <li><a href="{{ playlist.data.links.youtube }}">YouTube Music</a></li>
+{% endif %}
+</ul>
+<time datetime="{{ item.date | dateFilter }}"><a href="{{ item.url }}">{{ playlist.date | dateFilter }}</a></time>
 
-    {{ (playlist.templateContent or content or "") | safe }}
-    
-  <h2>Listen:</h2>
-  <ul>
-    {% if playlist.data.links.apple or links.apple %}
-      <li><a href="{{ playlist.data.links.apple or links.apple }}">Apple Music</a></li>
-    {% endif %}
-    {% if playlist.data.links.lastfm or links.lastfm %}
-      <li><a href="{{ playlist.data.links.lastfm or links.lastfm }}">YouTube Music</a></li>
-    {% endif %}
-    {% if playlist.data.links.spotify or links.spotify %}
-      <li><a href="https://open.spotify.com/playlist/{{ playlist.data.links.spotify or links.spotify }}">Spotify</a></li>
-    {% endif %}
-    {% if playlist.data.links.youtube %}
-      <li><a href="{{ playlist.data.links.youtube }}">YouTube Music</a></li>
-    {% endif %}
-  </ul>
-    <time datetime="{{ item.date | dateFilter }}"><a href="{{ item.url }}">{{ playlist.date | dateFilter }}</a></time>
-</article>
 

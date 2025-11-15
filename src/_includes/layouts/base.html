@@ -1,11 +1,15 @@
 <!DOCTYPE html>
     {% include "partials/head.html" %}
 	<body>
-        {% include "partials/headerGlobal.html" %}
-        <main tabindex="-1" id="main-content">
+        <header role="banner" class="container">
+            {% include "partials/headerGlobal.html" %}
+        </header>
+        <main tabindex="-1" id="main-content" class="container">
             {% block content %}
             {% endblock %}
         </main>
-        {% include "partials/footerGlobal.html" %}
+        <footer class="container">
+            {% include "partials/footerGlobal.html" %}
+        </footer>
     </body>
 </html>

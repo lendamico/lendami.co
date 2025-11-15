@@ -1,11 +1,9 @@
-<footer>
-    <nav aria-label="Footer">
-        <ul>
-            {% for item in navFooter.items %}
-                <li>
-                    <a href="{{ item.url }}">{{ item.text }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-    </nav>
-</footer>
+<nav aria-label="Footer">
+    <ul>
+        {% for item in navFooter.items %}
+            <li>
+                <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

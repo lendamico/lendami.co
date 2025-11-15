@@ -10,9 +10,5 @@ TODO: refactor to clean up context collision with 'item' and 'page' variables.
   {% set note = {} %}
 {% endif %}
 
-<article>
-    {{ (note.templateContent  or content or "") | safe }}
-    <time datetime="{{ note.date | dateFilter }}"><a href="{{ item.url }}">{{ note.date | dateFilter }}</a></time>
-
-</article>
-
+{{ (note.templateContent  or content or "") | safe }}
+<time datetime="{{ note.date | dateFilter }}"><a href="{{ item.url }}">{{ note.date | dateFilter }}</a></time>

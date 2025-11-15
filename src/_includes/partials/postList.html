@@ -1,29 +1,25 @@
-<div class="[ dot-shadow panel ] [ bg-secondary-glare ]" id="post-list">
-	<div class="[ wrapper ] [ flow flow-space-700 ]">
-		{% if postListHeadline %}
-		<h2 class="[ headline ] [ measure-micro ]" data-highlight="primary">
+<div id="post-list">
+	{% if postListHeadline %}
+		<h2 data-highlight="primary">
 			{{ postListHeadline }}
-		</h2>
-		{% endif %}
-		<div>
-			<ol class="[ post-list ] [ flow ]">
-				{% for item in postListItems %}
- 			{% if "/notes/" in item.inputPath  %}
-                {% include "partials/note.html" %}
-            {% elseif "/photos/" in item.inputPath  %}
-                {% include "partials/photo.html" %}
-            {% elseif "/playlists/" in item.inputPath  %}
-                {% include "partials/playlist.html" %}
-            {% elseif "/posts/" in item.inputPath %}
-				<article>
+		</h2>	
+	{% endif %}
+	<div>
+		{% for item in postListItems %}
+			<article>
+				{% if "/notes/" in item.inputPath  %}
+					{% include "partials/note.html" %}
+				{% elseif "/photos/" in item.inputPath  %}
+					{% include "partials/photo.html" %}
+				{% elseif "/playlists/" in item.inputPath  %}
+					{% include "partials/playlist.html" %}
+				{% elseif "/posts/" in item.inputPath %}
 					<h1><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h1>
 					{{ item.data.date | dateFilter }} 
-				</article>
-            {% else %}
-            {% endif %}
-				{% endfor %}
-			</ol>
-		</div>
+				{% else %}
+				{% endif %}
+			</article>
+		{% endfor %}
 	</div>
 </div>
 
