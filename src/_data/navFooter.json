@@ -1,8 +1,12 @@
 {
 	"items": [
 		{
-			"text": "Elsewhere",
+			"text": "Follow Len",
 			"url": "/links/"
+		},
+		{
+			"text": "Colophon",
+			"url": "/colophon/"
 		}
 	]
 }

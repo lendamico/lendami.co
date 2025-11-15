@@ -1,0 +1,20 @@
+{
+	"items": [
+		{
+			"text": "Posts",
+			"url": "/tag/posts"
+		},
+		{
+			"text": "Notes",
+			"url": "/tag/notes/"
+		},
+		{
+			"text": "Photos",
+			"url": "/tag/photos"
+		},
+		{
+			"text": "Playlists",
+			"url": "/tag/playlists"
+		}
+	]
+}
