@@ -1,0 +1,8 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<article class="h-entry">
+	<h1 class="p-name">{{ title }}</h1>
+	<p>Updated <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time></p>
+	<div class="e-content">{{ content | safe }}</div>
+</article>
+{% endblock %}

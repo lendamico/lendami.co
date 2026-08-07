@@ -1,0 +1,15 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<article>
+	<h1>{{ title }}</h1>
+	{{ content | safe }}
+	<ul>
+	{% for item in collections.now %}
+		<li>
+			<a href="{{ item.url }}">{{ item.data.title }}</a>
+			<time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
+		</li>
+	{% endfor %}
+	</ul>
+</article>
+{% endblock %}

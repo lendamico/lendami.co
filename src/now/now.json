@@ -1,0 +1,4 @@
+{
+  "permalink": "/now/{{ page.date | dateStamp }}/{{ title | slugify }}/index.html",
+  "layout": "layouts/now-single.html"
+}
