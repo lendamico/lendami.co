@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "label": "Personal",
+      "items": [
+        { "text": "Bluesky",          "url": "https://bsky.app/profile/lendami.co/" },
+        { "text": "Email",            "url": "mailto:len@lendami.co" },
+        { "text": "len.302 on Signal","url": "https://signal.me/#eu/HUGIMUTBZ8_XU47rvZHJR_QheEOpNhJ0eAcSEdy6jjQflgatsrdN3K1eZGJL0nf4li" },
+        { "text": "Book a meeting",   "url": "https://cal.com/lendamico" }
+      ]
+    },
+    {
+      "label": "Professional",
+      "items": [
+        { "text": "GitHub",   "url": "https://github.com/lendamico" },
+        { "text": "LinkedIn", "url": "https://www.linkedin.com/in/thelendamico/" }
+      ]
+    },
+    {
+      "label": "Musical",
+      "items": [
+        { "text": "Apple Music", "url": "https://itunes.apple.com/profile/lendamico" },
+        { "text": "Last.fm",     "url": "https://www.last.fm/user/lendamico" }
+      ]
+    },
+    {
+      "label": "Political",
+      "items": [
+        { "text": "Delaware Working Families Party", "url": "https://linktr.ee/delawarewfp" },
+        { "text": "Trans Refuge Now",                "url": "https://workingfamilies.org/" }
+      ]
+    }
+  ]
+}
