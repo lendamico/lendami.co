@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <div class="inner">
+        <a href="/" aria-label="{{ site.name }} - home" class="site-head__brand h-card u-url p-name" rel="me">{{ site.name }}</a>
+        <nav aria-label="Primary">
+            <ul>
+                {% for item in navGlobal.items %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.text }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</div>

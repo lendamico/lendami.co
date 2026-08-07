@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "partials/head.html" %}
+	<body>
+        <a href="#main-content" class="skip-link">Skip to content</a>
+        <header role="banner" class="container">
+            {% include "partials/headerGlobal.html" %}
+        </header>
+        <main tabindex="-1" id="main-content" class="container">
+            {% block content %}
+            {% endblock %}
+        </main>
+        <footer class="container">
+            {% include "partials/footerGlobal.html" %}
+        </footer>
+    </body>
+</html>

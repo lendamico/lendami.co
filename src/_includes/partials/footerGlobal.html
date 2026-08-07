@@ -1,0 +1,9 @@
+<nav aria-label="Footer">
+    <ul>
+        {% for item in navGlobal.items %}
+            <li>
+                <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
