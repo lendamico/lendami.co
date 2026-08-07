@@ -1,0 +1,18 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<article>
+	<h1>{{ title }}</h1>
+	{{ content | safe }}
+	{% for group in collections.uses | groupByData('category') %}
+	<h2>{{ group.grouper }}</h2>
+	<ul>
+	{% for item in group.list %}
+		<li>
+			{% if item.data.subcat %}{{ item.data.subcat }}: {% endif %}
+			<a href="{{ item.url }}">{{ item.data.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+	{% endfor %}
+</article>
+{% endblock %}

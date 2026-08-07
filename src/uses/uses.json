@@ -1,0 +1,4 @@
+{
+  "permalink": "/uses/{{ title | slugify }}/index.html",
+  "layout": "layouts/uses-single.html"
+}
