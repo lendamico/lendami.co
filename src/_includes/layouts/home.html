@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<article>
+	<h1>{{ title }}</h1>
+	{{ content | safe }}
+	<nav aria-label="Sections">
+		<ul>
+			<li><a href="/about/">About</a></li>
+			<li><a href="/now/">Now</a></li>
+			<li><a href="/uses/">Uses</a></li>
+			<li><a href="/links/">Links</a></li>
+			<li><a href="/contact/">Contact</a></li>
+		</ul>
+	</nav>
+</article>
+{% endblock %}
